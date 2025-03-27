@@ -1,0 +1,12 @@
+{
+	"name": "nuclear-land-mines",
+	"version": "0.1.0",
+	"factorio_version": "2.0",
+	"title": "Nuclear Land Mines",
+	"author": "TheEckelmonster",
+	"description": "Land mines that really go boom",
+	"dependencies": [
+		"base >= 2.0",
+		"space-age >= 2.0"
+	]
+}
