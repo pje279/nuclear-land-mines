@@ -89,11 +89,11 @@ log_constants.constants.EMPTY_STRING = ""
 
 log_constants.settings.DEBUG_LEVEL = {}
 log_constants.settings.DEBUG_LEVEL.value = "None"
-log_constants.settings.DEBUG_LEVEL.name = "more-enemies-debug-level"
+log_constants.settings.DEBUG_LEVEL.name = "nuclear-land-mines-debug-level"
 
 log_constants.settings.DO_NOT_PRINT = {
   type = "bool-setting",
-  name = "more-enemies-do-not-print",
+  name = "nuclear-land-mines-do-not-print",
   setting_type = "runtime-global",
   order = "abb",
   default_value = true,
@@ -101,7 +101,7 @@ log_constants.settings.DO_NOT_PRINT = {
 
 log_constants.settings.DO_TRACEBACK = {
   type = "bool-setting",
-  name = "more-enemies-do-traceback",
+  name = "nuclear-land-mines-do-traceback",
   setting_type = "runtime-global",
   order = "abc",
   default_value = false

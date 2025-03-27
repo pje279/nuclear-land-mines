@@ -1,7 +1,6 @@
 local Log_Constants = require("libs.log.log-constants")
 local Log_Constants_Functions = require("libs.log.log-constants-functions")
 
-
 data:extend({
   {
     type = "string-setting",
