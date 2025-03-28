@@ -1,0 +1,5 @@
+require("prototypes.entities.item")
+require("prototypes.entities.nuclear-land-mine")
+require("prototypes.entities.nuclear-land-mine-explosion")
+require("prototypes.recipe")
+require("prototypes.technology")
