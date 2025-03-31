@@ -4,7 +4,7 @@ data:extend({
     name = "nuclear-land-mine",
     icon = "__base__/graphics/technology/land-mine.png",
     icon_size = 256,
-    localised_description = {"technology-description.land-mine"},
+    localised_description = { "technology-description.nuclear-land-mine" },
     effects =
     {
       {
