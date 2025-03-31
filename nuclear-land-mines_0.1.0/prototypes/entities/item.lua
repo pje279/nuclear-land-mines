@@ -11,6 +11,7 @@ data:extend({
     pick_sound = Item_Sounds.explosive_inventory_pickup,
     drop_sound = Item_Sounds.explosive_inventory_move,
     place_result = "nuclear-land-mine",
-    stack_size = 10
+    stack_size = 10,
+    weight = 1.5 * tons
   },
 })
