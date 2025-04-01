@@ -22,6 +22,21 @@ function settings_service.get_explosion_modifier()
   return get_startup_setting(Settings_Constants.startup.EXPLOSION_MODIFIER)
 end
 
+-- DAMAGE_MODIFIER
+function settings_service.get_damage_modifier()
+  return get_startup_setting(Settings_Constants.startup.DAMAGE_MODIFIER)
+end
+
+-- RECIPE_RESULT_COUNT
+function settings_service.get_recipe_result_count()
+  return get_startup_setting(Settings_Constants.startup.RECIPE_RESULT_COUNT)
+end
+
+-- CRAFTING_TIME
+function settings_service.get_crafting_time()
+  return get_startup_setting(Settings_Constants.startup.CRAFTING_TIME)
+end
+
 function get_startup_setting(setting)
   local _setting = setting.default_value
 

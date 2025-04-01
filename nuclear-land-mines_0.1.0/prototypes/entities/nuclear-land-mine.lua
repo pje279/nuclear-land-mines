@@ -33,6 +33,13 @@ data:extend({
   damaged_trigger_effect = Hit_Effects.entity(),
   open_sound = Sounds.machine_open,
   close_sound = Sounds.machine_close,
+  dying_trigger_effect =
+  {
+    type = "create-entity",
+    entity_name = "land-mine-death-explosion-nuclear",
+    position = { 0, 0 },
+    target = { 0, 0 }
+  },
   picture_safe =
   {
     filename = "__base__/graphics/entity/land-mine/land-mine.png",

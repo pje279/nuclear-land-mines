@@ -34,6 +34,38 @@ settings_constants.startup.EXPLOSION_MODIFIER = {
   minimum_value = 0
 }
 
+settings_constants.startup.DAMAGE_MODIFIER = {
+  type = "double-setting",
+  name = "nuclear-land-mines-damage-modifier",
+  setting_type = "startup",
+  order = "a",
+  default_value = 1,
+  maximum_value = 11,
+  minimum_value = 0
+}
+
+-- {{ CRAFTING }}
+
+settings_constants.startup.RECIPE_RESULT_COUNT = {
+  type = "int-setting",
+  name = "nuclear-land-mines-recipe-result-count",
+  setting_type = "startup",
+  order = "a",
+  default_value = 2,
+  maximum_value = 11,
+  minimum_value = 1
+}
+
+settings_constants.startup.CRAFTING_TIME = {
+  type = "int-setting",
+  name = "nuclear-land-mines-crafting-time",
+  setting_type = "startup",
+  order = "a",
+  default_value = 20,
+  maximum_value = 1111,
+  minimum_value = 1
+}
+
 settings_constants.nuclear_land_mines = true
 
 local _settings_constants = settings_constants

@@ -1,3 +1,7 @@
+local dir_prefix = "__nuclear-land-mines__."
+
+local Settings_Service = require(dir_prefix.. "libs.settings-service")
+
 data:extend({
   {
     type = "recipe",
@@ -10,6 +14,6 @@ data:extend({
       { type = "item", name = "quantum-processor", amount = 4 },
       { type = "item", name = "atomic-bomb", amount = 1 },
     },
-    results = {{ type = "item", name = "nuclear-land-mine", amount = 2}}
+    results = {{ type = "item", name = "nuclear-land-mine", amount = Settings_Service.get_recipe_result_count()}}
   },
 })
