@@ -29,7 +29,7 @@ settings_constants.startup.EXPLOSION_MODIFIER = {
   name = "nuclear-land-mines-explosion-modifier",
   setting_type = "startup",
   order = "a",
-  default_value = 0.4,
+  default_value = 1,
   maximum_value = 11,
   minimum_value = 0
 }
@@ -37,6 +37,16 @@ settings_constants.startup.EXPLOSION_MODIFIER = {
 settings_constants.startup.DAMAGE_MODIFIER = {
   type = "double-setting",
   name = "nuclear-land-mines-damage-modifier",
+  setting_type = "startup",
+  order = "a",
+  default_value = 1,
+  maximum_value = 11,
+  minimum_value = 0
+}
+
+settings_constants.startup.SHOCKWAVE_MODIFIER = {
+  type = "double-setting",
+  name = "nuclear-land-mines-shockwave-modifier",
   setting_type = "startup",
   order = "a",
   default_value = 1,
@@ -65,6 +75,7 @@ settings_constants.startup.CRAFTING_TIME = {
   maximum_value = 1111,
   minimum_value = 1
 }
+
 
 settings_constants.nuclear_land_mines = true
 

@@ -27,6 +27,11 @@ function settings_service.get_damage_modifier()
   return get_startup_setting(Settings_Constants.startup.DAMAGE_MODIFIER)
 end
 
+-- SHOCKWAVE_MODIFIER
+function settings_service.get_shockwave_modifier()
+  return get_startup_setting(Settings_Constants.startup.SHOCKWAVE_MODIFIER)
+end
+
 -- RECIPE_RESULT_COUNT
 function settings_service.get_recipe_result_count()
   return get_startup_setting(Settings_Constants.startup.RECIPE_RESULT_COUNT)

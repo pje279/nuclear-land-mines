@@ -1,4 +1,6 @@
 require("prototypes.entities.item")
+require("prototypes.entities.projectiles")
+require("prototypes.entities.explosions")
 require("prototypes.entities.nuclear-land-mine")
 require("prototypes.entities.nuclear-land-mine-explosion")
 require("prototypes.recipe")
